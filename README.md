@@ -34,7 +34,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 </p>
 
 ## CIFAR-10 dataset
-### 1. Resnet with bottleneck block
+### - Resnet with bottleneck block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  134    |      3.6       |  78.63 |  78.24 |  68.54 |
