@@ -48,3 +48,14 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | FedProx |     134         |      3.6       |78.63|78.24|68.54
 | Scaffold  |       134         |      3.6        |78.63|78.24|68.54
 | RefKDFL  |       39         |      0.6        |78.91|79.29|71.85
+
+
+
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
