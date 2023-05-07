@@ -32,7 +32,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 <img src="https://user-images.githubusercontent.com/91996704/236241056-e0cd8a20-0bfd-43b4-b3b0-8e6620cca393.PNG" width="240" height="180">
 <img src="https://user-images.githubusercontent.com/91996704/236241092-d887c037-946f-4240-954b-282acf83241b.PNG" width="240" height="180">
 </p>
-
+| Method         | MFLOPs  | Model size(MB) | 0.1  | 0.2  | 0.5 | 
 | Method         | MFLOPs  | Model size(MB) | 0.1  | 0.2  | 0.5 | 
 | -------------- |-------- | -------------- |------- |------- |------- |
 | FedAvg   |     134         |      3.6       |78.63|78.24|68.54
