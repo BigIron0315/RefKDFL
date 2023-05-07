@@ -33,8 +33,8 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 <img src="https://user-images.githubusercontent.com/91996704/236241092-d887c037-946f-4240-954b-282acf83241b.PNG" width="240" height="180">
 </p>
 
-# CIFAR-10 dataset
-# 1. Resnet with bottleneck block
+## CIFAR-10 dataset
+### 1. Resnet with bottleneck block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  134    |      3.6       |  78.63 |  78.24 |  68.54 |
@@ -42,7 +42,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | Scaffold |  134    |      3.6       |  62.7  |  62.6  |  52.36 |
 | RefKDFL  |   39    |      0.6       |  78.91 |  79.29 |  71.85 |
 
-# 2. Resnet with residual block
+### 2. Resnet with residual block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  128    |      3.5       |  80.73 |  81.57 |  72.16 |
@@ -50,7 +50,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | Scaffold |  128    |      3.5       |  73.53 |  74.55 |  66.75 |
 | RefKDFL  |   20    |      0.4       |  82.39 |  82.52 |  78.68 |
 
-# 3. Vgg with basic block
+### 3. Vgg with basic block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  290    |      37.7      |  86.07 |  84.34 |  82.09 |
@@ -59,8 +59,8 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | RefKDFL  |   40    |      5         |  85.79 |  85.26 |  83.3  |
 
 
-# CIFAR-100 dataset
-# 1. Resnet with bottleneck block
+## CIFAR-100 dataset
+### 1. Resnet with bottleneck block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  134    |      3.6       |  61.01 |  58.91 |  48.53 |
@@ -68,7 +68,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | Scaffold |  134    |      3.6       |  46.56 |  43.82 |  30.42 |
 | RefKDFL  |   55    |      1.1       |  60.67 |  61.34 |  54.79 |
 
-# 2. Resnet with residual block
+### 2. Resnet with residual block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  128    |      3.5       |  59.91 |  57.92 |  48.38 |
@@ -76,7 +76,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | Scaffold |  128    |      3.5       |  51.72 |  49.42 |  39.95 |
 | RefKDFL  |   35    |      0.9       |  59.93 |  60.03 |  56.62 |
 
-# 3. Vgg with basic block
+### 3. Vgg with basic block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
 | FedAvg   |  290    |      37.7      |  62.27 |  60.99 |  52.37 |
