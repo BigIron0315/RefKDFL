@@ -79,8 +79,8 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 # 3. Vgg with basic block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
-| FedAvg   |  290    |      37.7      |  86.07 |  84.34 |  82.09 |
-| FedProx  |  290    |      37.7      |  85.53 |  84.62 |  82.68 |
-| Scaffold |  290    |      37.7      |  83.67 |  83.35 |  79.01 |
-| RefKDFL  |   77    |      9         |  85.79 |  85.26 |  83.3  |
+| FedAvg   |  290    |      37.7      |  62.27 |  60.99 |  52.37 |
+| FedProx  |  290    |      37.7      |  62.74 |  61.09 |  53.0  |
+| Scaffold |  290    |      37.7      |  64.57 |  62.41 |  55.65 |
+| RefKDFL  |   77    |      9         |  62.57 |  61.65 |  55.17 |
 
