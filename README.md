@@ -33,7 +33,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 <img src="https://user-images.githubusercontent.com/91996704/236241092-d887c037-946f-4240-954b-282acf83241b.PNG" width="240" height="180">
 </p>
 
-## CIFAR-10 dataset
+## 1. CIFAR-10 dataset
 ### - Resnet with bottleneck block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
@@ -59,7 +59,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | RefKDFL  |   40    |      5         |  85.79 |  85.26 |  83.3  |
 
 
-## CIFAR-100 dataset
+## 2. CIFAR-100 dataset
 ### - Resnet with bottleneck block
 | Method   | MFLOPs  | Model size(MB) |P = 0.1 |P = 0.2 | P = 0.5| 
 | ---------|-------- | -------------- |------- |------- |------- |
