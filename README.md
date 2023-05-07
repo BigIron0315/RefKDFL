@@ -33,7 +33,7 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 <img src="https://user-images.githubusercontent.com/91996704/236241092-d887c037-946f-4240-954b-282acf83241b.PNG" width="240" height="180">
 </p>
 
-|          | Top 1 Accuracy  | Top 5 Accuracy |
+| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
