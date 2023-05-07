@@ -36,3 +36,5 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
+| ------------------ |---------------- | -------------- |
+| My awesome model   |     85%         |      95%       |
