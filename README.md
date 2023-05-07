@@ -21,17 +21,13 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 ```
 
 # Results
+### - Test accuracy with 3 popular convolutional building blocks ( basic block, residual block, bottleneck block)
 <p float="left">
 <img src="https://user-images.githubusercontent.com/91996704/236240591-65b5f062-796b-4261-878a-0e28ff89d714.PNG" width="240" height="300">
 <img src="https://user-images.githubusercontent.com/91996704/236240614-d84af1d3-931f-4d9b-99fe-5219be0e4655.PNG" width="240" height="300">
 <img src="https://user-images.githubusercontent.com/91996704/236240486-75d63bc3-941c-495a-b5c5-bbb7fa4e4941.PNG" width="240" height="300">
 </p>
 
-<p float="left">
-<img src="https://user-images.githubusercontent.com/91996704/236241012-ff19a62b-44dd-4220-951c-2a489c22c3d8.PNG" width="240" height="180">
-<img src="https://user-images.githubusercontent.com/91996704/236241056-e0cd8a20-0bfd-43b4-b3b0-8e6620cca393.PNG" width="240" height="180">
-<img src="https://user-images.githubusercontent.com/91996704/236241092-d887c037-946f-4240-954b-282acf83241b.PNG" width="240" height="180">
-</p>
 
 ## 1. CIFAR-10 dataset
 ### - Resnet with bottleneck block
@@ -84,3 +80,9 @@ python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_
 | Scaffold |  290    |      37.7      |  64.57 |  62.41 |  55.65 |
 | RefKDFL  |   77    |      9         |  62.57 |  61.65 |  55.17 |
 
+### - Test accuracy on CIFAR-10 with public data ratio 0.2
+<p float="left">
+<img src="https://user-images.githubusercontent.com/91996704/236241012-ff19a62b-44dd-4220-951c-2a489c22c3d8.PNG" width="240" height="180">
+<img src="https://user-images.githubusercontent.com/91996704/236241056-e0cd8a20-0bfd-43b4-b3b0-8e6620cca393.PNG" width="240" height="180">
+<img src="https://user-images.githubusercontent.com/91996704/236241092-d887c037-946f-4240-954b-282acf83241b.PNG" width="240" height="180">
+</p>
