@@ -15,10 +15,17 @@ To train the model to find a golden ratio, run this command: train cifar10 with 
 python3 main.py --model Residual_3block_14_33 --dataset cifar10 --iter 1
 ```
 
-To train a model through federated learning, run this command: train teacher network with centralized manner(TA_train 1), batch size 50, public data ratio 10%, fed_a(FedAvg), fed_b(FedProx), fed_c(Scaffold), fed_d(RefKDFL). Once teacher network is trained, it doesn't need to be train again.
+To train a model through federated learning, run these commands
+- train teacher network with centralized manner(TA_train 1), batch size 50, public data ratio 10%, resnet model, fed_a(FedAvg), fed_b(FedProx), fed_c(Scaffold), fed_d(RefKDFL). Once teacher network is trained, it doesn't need to be train again.
 ```train FL
 python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_10/TA_Resnet110_CIFAR10.pth --isDistill 1 --dataset cifar10 --model_name resnet --TA_train 1 --target_ratio 0.125 --batch 50 --Dir 0.3 --publicRatio 0.1 --fed_a 1 --fed_b 1 --fed_c 1 --fed_d 1
 ```
+
+-Without training teacher network(TA_train 0), batch size 50, public data ratio 20%, vgg model, fed_a(FedAvg), fed_b(FedProx), fed_c(Scaffold), fed_d(RefKDFL).
+```train FL
+python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_20/TA_Resnet110_CIFAR10.pth --isDistill 1 --dataset cifar10 --model_name vgg --TA_train 0 --target_ratio 0.25 --batch 50 --Dir 0.3 --publicRatio 0.1 --fed_a 1 --fed_b 1 --fed_c 1 --fed_d 1
+```
+
 
 # Results
 ### - Test accuracy with 3 popular convolutional building blocks ( basic block, residual block, bottleneck block)
