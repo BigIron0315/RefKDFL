@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 To train the model to find a golden ratio, run this command: train cifar10 with residual block where K = 3, and d = 2, and W<sub>1</sub> = 33
 ```train model
-python3 main.py --model Residual_3block_14_33 --dataset cifar10 --iter 1
+python3 main.py --model Residual_3block_14_33 --dataset cifar10
 ```
 
 To train a model through federated learning, run these commands
