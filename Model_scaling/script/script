@@ -1,0 +1,13 @@
+
+
+1. Train residual block with K=3, d=2, W1=33
+
+python3 main.py --model Residual_3block_14_33 --dataset cifar10
+
+2. Train bottleneck block with K=4, d=2, W1=32
+
+python3 main.py --model Bottle_4block_26_32 --dataset cifar10
+
+3. Train basic block with K=5, d=2, W1=48
+
+python3 main.py --model Basic_5block_2_48 --dataset cifar10
