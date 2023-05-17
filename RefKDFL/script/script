@@ -1,0 +1,25 @@
+
+
+1. Train RefKDFL (Public data 10%, CIFAR-10 dataset, Resnet with residual block, target model size 0.125)
+
+python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_10/TA_Resnet110_CIFAR10.pth --isDistill 1 --dataset cifar10 --model_name resnet --TA_train 0 --target_ratio 0.125 --Dir 0.3 --publicRatio 0.1 --fed_a 0 --fed_b 0 --fed_c 0 --fed_d 1
+
+2. Train FedAvg, FedProx, Scaffold (Public data 10%, CIFAR-10 dataset, Resnet with residual block, target model size 1(Resnet56))
+
+python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_10/TA_Resnet110_CIFAR10.pth --isDistill 1 --dataset cifar10 --model_name resnet --TA_train 0 --target_ratio 1 --Dir 0.3 --publicRatio 0.1 --fed_a 1 --fed_b 1 --fed_c 1 --fed_d 0
+
+3. Train RefKDFL (Public data 20%, CIFAR-100 dataset, Vgg, target model size 0.25)
+
+python3 main_cifar100.py --path_t ./save/models/TA_Resnet110_CIFAR100/PublicRatio_20/TA_Resnet110_CIFAR100.pth --isDistill 1 --dataset cifar100 --model_name vgg --TA_train 0 --target_ratio 0.25 --Dir 0.3 --publicRatio 0.2 --fed_a 0 --fed_b 0 --fed_c 0 --fed_d 1
+
+4. Train FedAvg, FedProx, Scaffold (Public data 20%, CIFAR-100 dataset, Vgg, target model size 1(Vgg13))
+
+python3 main_cifar100.py --path_t ./save/models/TA_Resnet110_CIFAR100/PublicRatio_20/TA_Resnet110_CIFAR100.pth --isDistill 1 --dataset cifar100 --model_name vgg --TA_train 0 --target_ratio 1 --Dir 0.3 --publicRatio 0.2 --fed_a 1 --fed_b 1 --fed_c 1 --fed_d 0
+
+5. Train RefKDFL (Public data 50%, CIFAR-10 dataset, Resnet with bottleneck block, target model size 0.125)
+
+python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_50/TA_Resnet110_CIFAR10.pth --isDistill 1 --dataset cifar10 --model_name resnet_B --TA_train 0 --target_ratio 0.125 --Dir 0.3 --publicRatio 0.5 --fed_a 0 --fed_b 0 --fed_c 0 --fed_d 1
+
+6. Train FedAvg, FedProx, Scaffold (Public data 50%, CIFAR-10 dataset, Resnet with bottleneck block, target model size 1(Resnet56))
+
+python3 main_cifar10.py --path_t ./save/models/TA_Resnet110_CIFAR10/PublicRatio_50/TA_Resnet110_CIFAR10.pth --isDistill 1 --dataset cifar10 --model_name resnet_B --TA_train 0 --target_ratio 1 --Dir 0.3 --publicRatio 0.5 --fed_a 1 --fed_b 1 --fed_c 1 --fed_d 0
